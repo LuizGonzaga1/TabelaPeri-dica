@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,700");
 
-/* GLOBAL STYLES */
+/* ESTILOS GLOBAIS */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 }
 
 :root {
-  --bg-preto: rgba(93, 21, 95, 0.76);
+  --bg-preto: rgba(136, 110, 139, 0.719);
   --nao-metal: rgb(180, 210, 100);
   --gas-nobre: rgb(100, 180, 225);
   --metal-alcalino: rgb(245, 200, 100);
@@ -30,7 +30,7 @@ body {
   background: var(--bg-preto);
 }
 
-/* FOREGROUND COLOR VARIABLES */
+/* VARIÁVEIS DE COR EM PRIMEIRO PLANO */
 .nao-metal {
   color: var(--nao-metal);
 }
@@ -71,7 +71,7 @@ body {
   color: var(--actinidio);
 }
 
-/* TYPOGRAPHY STYLES */
+/* ESTILOS DE TIPOGRAFIA */
 h1 {
   margin: 0.5em 0;
   font-size: calc(3vw + 2rem);
@@ -88,7 +88,7 @@ p:last-child {
   font-size: 0.8em;
 }
 
-/* GRID CONTAINER STYLES */
+/* ESTILOS DE CONTÊINER DE GRADE */
 main {
   margin: auto;
   max-width: 45em;
@@ -167,7 +167,7 @@ li:before {
       padding: 2em;
     }
 
-    /* GRID CONTAINER STYLES */
+    /* ESTILOS DE CONTÊINER DE GRADE */
 
     main {
       max-width: 130.5em;
@@ -227,7 +227,7 @@ li:before {
       margin-bottom: 0;
     }
 
-    li + li {
+    li+li {
       margin-left: 2em;
     }
   }
